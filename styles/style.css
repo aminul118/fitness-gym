@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama?styles=170364");
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: Inter;
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  border: 2px solid red;
+}
+/* Shared Style */
+.color-p {
+  color: #ffffff;
+}
+.color-s {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary {
+    color: #ffffff;
+    background: #e6533c;
+    border-radius: 46px;
+    height: 54px;
+    width: 226px;
+    font-size: 1.1rem;
+    border: none;
+  }
+  .btn-transparent {
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 46px;
+    height: 54px;
+    width: 226px;
+    font-size: 1.1rem;
+    margin-left: 20px;
+  }
+/* Navbar Style*/
+nav h2 {
+  color: #e6533c;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav {
+  margin-top: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#menu {
+  color: #ffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  width: 465px;
+  height: 46px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  justify-items: center;
+}
+#home {
+  color: #ffffff;
+  background: #e6533c;
+  border-radius: 46px;
+  padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+}
+/* Hero Section style */
+.hero-banner {
+    margin-top: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-banner h1{
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+#shape{
+    font-family: Miama;
+    
+}
+#hero-banner-text{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border: 2px solid blue;
+    row-gap: 2rem;
+
+}
+#hero-banner-img{
+width: 45%;
+border: 2px solid rgb(83, 11, 45);
+}
