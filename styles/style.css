@@ -147,8 +147,41 @@ nav {
   bottom: 27px;
   left: 5px;
 }
+/* Section-one style */
+.habit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+  gap: 16px;
+}
+.movement {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding-top: 60px;
+}
+.movement img {
+  border-radius: 50%;
+  border: 5px solid rgb(230, 83, 60);
+  margin-top: 20px;
+}
+.movement h3,
+p {
+  padding-top: 16px;
+}
+
 /* Responsive for Small Device */
 @media screen and (max-width: 600px) {
+  .habit {
+    padding-top: 50px;
+  }
+  .movement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    padding-top: 10px;
+  }
   #menu {
     display: none;
   }
