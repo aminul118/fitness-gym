@@ -53,8 +53,8 @@
 
 /* Navbar Style*/
 
-nav h2, 
-.fitness{
+nav h2,
+.fitness {
   color: #e6533c;
   font-weight: 800;
   font-size: 2.4rem;
@@ -352,68 +352,74 @@ select {
   border-radius: 1rem;
   filter: brightness(80%);
 }
-  .trainer1 {
-    position: relative;
-  }
-  .trainer1-text{
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-  }
+.trainer1 {
+  position: relative;
+}
+.trainer1-text {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
 
-  .get-started> ul > li{
-    list-style: none;
-  }
-  .get-started > ul > li > a{
-    text-decoration: none;
+.get-started > ul > li {
+  list-style: none;
+}
+.get-started > ul > li > a {
+  text-decoration: none;
   color: #ffffff;
-  }
-.get-started{
+}
+.get-started {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-.footer-text{
+.footer-text {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-footer{
+footer {
   background: rgba(255, 255, 255, 0.1);
 }
-  .footer-grid{
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-content: center;
-    height: 300px;
-    padding-left: 150px;
-    
-  }
-  hr{
-    width: 60%;
-   margin: 0 auto;
-  }
-.right-reserve{
+.footer-grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+  height: 300px;
+  padding-left: 150px;
+}
+hr {
+  width: 60%;
+  margin: 0 auto;
+}
+.right-reserve {
   text-align: center;
   padding-bottom: 25px;
+}
+.ham-bar{
+  color: #ffffff;
+  display: none;
 }
 /* Responsive for Small Device */
 
 @media screen and (max-width: 600px) {
-  hr{
+  .ham-bar{
+    color: #ffffff;
+    display:block;
+  }
+  hr {
     margin-top: 25px;
     width: 80%;
   }
-  .fitness{
+  .fitness {
     margin-top: 25px;
   }
-  .get-started{
+  .get-started {
     margin-top: 25px;
-    
   }
-  .footer-grid{
+  .footer-grid {
     margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -421,14 +427,11 @@ footer{
     align-content: start;
     height: auto;
     padding-left: 25px;
-    
   }
   .teammate-img-container {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     align-items: center;
-   
-   
   }
   .teammate {
     margin-top: 80px;
