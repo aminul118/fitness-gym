@@ -170,6 +170,8 @@ nav {
   text-align: center;
   padding-top: 100px;
   gap: 16px;
+  width: 70%;
+  margin: 0 auto;
 }
 .habit h1,
 .run {
@@ -189,7 +191,7 @@ nav {
 }
 .movement h3,
 p {
-  padding-top: 16px;
+  padding: 15px 20px;
 }
 
 /* Section-Two styles */
@@ -215,7 +217,9 @@ p {
 
 /* section-Three styles */
 .exercises {
-  margin: 60px 0;
+  margin: 60px auto;
+  width: 50%;
+  text-align: center;
 }
 .section-three img {
   width: 100%;
@@ -310,14 +314,16 @@ select {
 }
 .about-one-text {
   position: absolute;
-  margin-top: 300px;
-  margin-left: 160px;
   background-color: #e6533c;
   border-radius: 0 30px;
   padding: 20px;
   text-align: center;
+  margin-left: -25%;
+  margin-top: -55%;
+
 }
 .about-img-two {
+  position: relative;
   margin-top: 120px;
   margin-left: -82px;
 }
@@ -339,7 +345,10 @@ select {
   border-radius: 1rem;
   margin-top: 50px;
 }
-
+.meet-team{
+  width: 70%;
+  margin: 0 auto;
+}
 .teammate {
   text-align: center;
 }
@@ -352,6 +361,9 @@ select {
   border-radius: 1rem;
   filter: brightness(80%);
 }
+
+/* Footer Section starts here */
+
 .trainer1 {
   position: relative;
 }
@@ -436,7 +448,10 @@ hr {
   .teammate {
     margin-top: 80px;
   }
-
+.meet-team{
+  width: 100%;
+  text-align: left;
+}
   .about-text,
   .about-img {
     width: 100%;
@@ -478,6 +493,9 @@ hr {
   }
   .habit {
     padding-top: 50px;
+    width: 100%;
+    text-align: left;
+    
   }
   .movement {
     display: grid;
@@ -545,4 +563,9 @@ hr {
   #ball {
     bottom: 17px;
   }
+}
+.exercises {
+  margin: 60px 0;
+  width: 100%;
+  text-align: center;
 }
