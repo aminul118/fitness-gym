@@ -216,6 +216,7 @@ p {
 }
 
 /* section-Three styles */
+
 .exercises {
   margin: 60px auto;
   width: 50%;
@@ -416,7 +417,7 @@ hr {
 }
 /* Responsive for Small Device */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .ham-bar{
     color: #ffffff;
     display:block;
